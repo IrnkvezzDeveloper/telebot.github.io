@@ -198,6 +198,7 @@ DYNAMIC_DATATB = {
 API_GENERATOR = {
     # SLUG -> Import_PATH 
     'product'  : "home.models.Product",
+    'accounts' : "home.models.Account"
 }
 
 REST_FRAMEWORK = {

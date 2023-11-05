@@ -15,9 +15,3 @@ def index(request):
     #'products' : Product.objects.all()
   }
   return render(request, "pages/index.html", context)
-
-def tables(request):
-  context = {
-    'segment': 'tables'
-  }
-  return render(request, "pages/dynamic-tables.html", context)
